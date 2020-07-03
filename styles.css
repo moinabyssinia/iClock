@@ -1,40 +1,42 @@
 #clock{
-    margin: 40% 40%;
+    margin: 200px 40%;
+    /* display: grid; */
 }
 .hr{
     position: absolute;
     border: 2px solid black;
     width: 80px;
-    transform-origin: 100%;
-    transform: rotate(90deg);
-    margin: 0;
+    transform-origin: 0%;
+    transform: rotate(180deg);
+    margin: 0 0 0 80px;
     padding: 0;
 }
 .min{
     position: absolute;
     border: 2px solid rgb(218, 5, 5);
     width: 80px;
-    transform-origin: 100%;
-    transform: rotate(38deg);
+    transform-origin: 0%;
+    transform: rotate(35deg);
 
-    margin: 0;
+    margin: 0 0 0 80px;
     padding: 0;
 }
 .sec{
     position: absolute;
     border: 2px solid rgb(27, 13, 216);
     width: 80px;
-    transform-origin: 100%;
-    transform: rotate(-23deg);
-    margin: 0;
+    transform-origin: 0%;
+    transform: rotate(23deg);
+    margin: 0 0 0 80px;
     padding: 0;
 }
 .hinge{
     position: absolute;
-    border: 4px solid rgb(216, 13, 206);
+    border: 4px solid rgb(0, 0, 0);
     width: 0px;
     border-radius: 50%;
-    margin: 0 79px;
+    /* margin-right: 79px; */
+    margin: -2px 0px 0px 79px;
     padding: 0;
 }
 /* rotate hands */
