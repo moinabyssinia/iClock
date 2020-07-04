@@ -24,7 +24,7 @@
 .sec{
     position: absolute;
     border: 2px solid rgb(27, 13, 216);
-    width: 70px;
+    width: 80px;
     transform-origin: 0%;
     transform: rotate(23deg);
     margin: 0 0 0 80px;
@@ -39,4 +39,9 @@
     margin: -2px 0px 0px 79px;
     padding: 0;
 }
+
 /* rotate hands */
+.rotated{
+    transform-origin: 0%;
+    transform: rotate(6deg);
+}
