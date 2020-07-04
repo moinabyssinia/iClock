@@ -1,3 +1,8 @@
+body{
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+}
+
 #clock{
     /* margin: 300px 300px; */
     /* display: grid; */
@@ -5,7 +10,7 @@
     margin: 40% auto;
     height: 400px;
     width: 400px;
-    border: 5px solid green;
+    border: 8px solid rgb(255, 255, 255);
     /* margin-right: 40px; */
     border-radius: 50%;
 }
@@ -20,7 +25,7 @@
 }
 .min{
     position: absolute;
-    border: 2px solid rgb(218, 5, 5);
+    border: 2px solid rgb(3, 3, 3);
     width: 180px;
     transform-origin: 0%;
     transform: rotate(35deg);
@@ -30,7 +35,7 @@
 }
 .sec{
     position: absolute;
-    border: 2px solid rgb(27, 13, 216);
+    border: 2px solid rgb(5, 4, 15);
     width: 180px;
     transform-origin: 0%;
     transform: rotate(25deg);
@@ -52,3 +57,7 @@
     transform-origin: 0%;
     transform: rotate(6deg);
 }
+p{
+    margin: 100px auto auto 160px;
+}
+
